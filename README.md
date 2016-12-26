@@ -1,2 +1,2 @@
 # bloombergExecSearch
-Web Crawler That Scrapes description from bloomberg webpage
+Node Web Crawler That Scrapes Exec description from bloomberg webpage
