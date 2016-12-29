@@ -46,6 +46,9 @@ function handleGETAjax(url, callBack) {
 
 function populateResult(value) {
     var result = document.getElementById('result');
+    if (!result.innerText) {
+        result['innerText'] = '[Not Found]';
+    }
     result.innerText = value.description.toString() + "\n" + result.innerText;
 }
 

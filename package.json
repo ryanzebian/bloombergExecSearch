@@ -16,7 +16,7 @@
     "superagent": "^3.3.1"
   },
   "scripts": {
-    "test": "mocha ./test/test",
+    "test": "mocha --timeout 15000 ./test/test",
     "start": "nodemon server.js --ignore public"
   },
   "author": "RMZ",

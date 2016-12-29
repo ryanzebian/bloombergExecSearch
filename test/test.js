@@ -24,7 +24,7 @@ describe('CEO API', function () {
                 result = JSON.parse(res.text);
             });
             assert.equal(result[0].toString()
-                , "http://www.bloomberg.com/research/stocks/private/person.asp?personId=673018&privcapId=345542");
+                , "http://www.bloomberg.com/research/stocks/people/person.asp?personId=673018&capId=353540&previousCapId=6613534&previousTitle=Lm%2520Insurance%2520Corporation");
             done();
         });
     });
